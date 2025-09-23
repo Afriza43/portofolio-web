@@ -42,16 +42,15 @@ const PrivateProjectPage: React.FC = () => {
 						<div>
 							<h3 className="font-semibold text-white text-lg mb-2">My Role</h3>
 							<p className="text-gray-400">
-								[Your Role Here, e.g., Lead Developer, Machine Learning
-								Engineer]
+								[Software Engineer, Software Developer]
 							</p>
 						</div>
 						<div>
 							<h3 className="font-semibold text-white text-lg mb-2">
-								Core Technologies
+								Core Technologies and Tools
 							</h3>
 							<p className="text-gray-400">
-								[Technologies Used, e.g., Python (Flask), React.js, AWS, Docker]
+								[Python (Flask), React.js, Machine Learning, Plotly, Dataiku]
 							</p>
 						</div>
 						<div className="md:col-span-2">
@@ -60,12 +59,12 @@ const PrivateProjectPage: React.FC = () => {
 							</h3>
 							<ul className="list-disc list-inside text-gray-400 space-y-2">
 								<li>
-									Developed an integrated system for log quality control which
-									increased analysis speed by 30%.
+									Develop a ML-integrated system to increase the speed of log
+									quality and interpretation analysis.
 								</li>
 								<li>
-									Built interactive dashboards to visualize well conditions,
-									enabling faster decision-making.
+									Built interactive log plotting dashboards to visualize many
+									well conditions across depth.
 								</li>
 								<li>
 									Designed and implemented a scalable data storage system on the
