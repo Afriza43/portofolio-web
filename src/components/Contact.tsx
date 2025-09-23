@@ -11,8 +11,7 @@ const Contact: React.FC = () => {
 			<div className="container mx-auto px-4 max-w-2xl text-center">
 				<SectionTitle title="Get In Touch" />
 				<p className="mt-4 text-gray-400">
-					Punya pertanyaan atau ingin bekerja sama? Jangan ragu untuk
-					menghubungi saya.
+					Have a question or want to collaborate? Feel free to reach out.
 				</p>
 
 				<div className="mt-10 backdrop-blur-sm bg-white/5 p-8 rounded-lg border border-white/10">
@@ -23,7 +22,7 @@ const Contact: React.FC = () => {
 							<label
 								htmlFor="name"
 								className="block mb-2 text-sm font-medium">
-								Your Name
+								Name
 							</label>
 							<input
 								type="text"
@@ -37,7 +36,7 @@ const Contact: React.FC = () => {
 							<label
 								htmlFor="email"
 								className="block mb-2 text-sm font-medium">
-								Your Email
+								Email
 							</label>
 							<input
 								type="email"
@@ -51,7 +50,7 @@ const Contact: React.FC = () => {
 							<label
 								htmlFor="message"
 								className="block mb-2 text-sm font-medium">
-								Your Message
+								Message
 							</label>
 							<textarea
 								id="message"
