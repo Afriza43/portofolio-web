@@ -4,20 +4,23 @@
 
 import React from "react";
 import SectionTitle from "./SectionTitle";
-// Impor ikon dari react-icons
-import { FaPython, FaReact, FaNodeJs, FaDatabase } from "react-icons/fa";
-import { SiNextdotjs, SiTensorflow, SiPandas } from "react-icons/si";
+import { FaPython, FaReact, FaLaravel, FaDatabase } from "react-icons/fa";
+import {
+	SiNextdotjs,
+	SiTensorflow,
+	SiTableau,
+	SiFlutter,
+} from "react-icons/si";
 
-// Data keahlian kita
 const skills = [
 	{ name: "Python", icon: <FaPython size={40} /> },
+	{ name: "TensorFlow", icon: <SiTensorflow size={40} /> },
+	{ name: "Tableau", icon: <SiTableau size={40} /> },
+	{ name: "SQL & Databases", icon: <FaDatabase size={40} /> },
 	{ name: "React", icon: <FaReact size={40} /> },
 	{ name: "Next.js", icon: <SiNextdotjs size={40} /> },
-	{ name: "Node.js", icon: <FaNodeJs size={40} /> },
-	{ name: "TensorFlow", icon: <SiTensorflow size={40} /> },
-	{ name: "Pandas & NumPy", icon: <SiPandas size={40} /> },
-	{ name: "SQL & Databases", icon: <FaDatabase size={40} /> },
-	// Tambahkan skill lain di sini
+	{ name: "Laravel", icon: <FaLaravel size={40} /> },
+	{ name: "Flutter", icon: <SiFlutter size={40} /> },
 ];
 
 const Expertise: React.FC = () => {
@@ -26,10 +29,10 @@ const Expertise: React.FC = () => {
 			id="expertise"
 			className="py-20">
 			<div className="container mx-auto px-4 text-center max-w-4xl">
-				<SectionTitle title="My Expertise" />
+				<SectionTitle title="Tools and Programming Languages" />
 				<p className="mt-6 text-lg text-gray-300 leading-relaxed">
-					Saya fokus mengubah data menjadi wawasan. Berikut adalah beberapa
-					kompetensi inti dan teknologi yang saya kuasai.
+					Here are some core tools and programming languages that I use to
+					develop software, data analysis, and machine learning applications.
 				</p>
 				<div className="mt-12 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8">
 					{skills.map((skill, index) => (

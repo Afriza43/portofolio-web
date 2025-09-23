@@ -7,7 +7,7 @@ import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
 import TechnicalSkills from "@/components/TechnicalSkills";
 import FadeInSection from "@/components/FadeInSection";
-import Awards from "@/components/Awards";
+// import Awards from "@/components/Awards";
 
 export default function Home() {
 	return (
@@ -27,9 +27,9 @@ export default function Home() {
 			<FadeInSection>
 				<Projects />
 			</FadeInSection>
-			<FadeInSection>
+			{/* <FadeInSection>
 				<Awards />
-			</FadeInSection>
+			</FadeInSection> */}
 			<FadeInSection>
 				<Contact />
 			</FadeInSection>

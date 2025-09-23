@@ -5,36 +5,24 @@ import SectionTitle from "./SectionTitle";
 import {
 	FaBrain,
 	FaProjectDiagram,
-	FaPython,
-	FaCloud,
 	FaChartBar,
 	FaCode,
+	FaDatabase,
+	FaMobileAlt,
 } from "react-icons/fa";
 
 const skillsData = [
 	{
 		icon: <FaBrain size={32} />,
-		title: "TensorFlow & Deep Learning",
+		title: "Machine Learning",
 		description:
-			"Experience with neural networks, model optimization, and advanced architectures (CNN, RNN, GANs).",
+			"Experience with neural networks, model optimization, and advanced architectures using Tensorflow.",
 	},
 	{
 		icon: <FaProjectDiagram size={32} />,
-		title: "Data Science Project Management",
+		title: "Data Science",
 		description:
 			"Managing end-to-end data projects: data collection, preprocessing, modeling, and deployment.",
-	},
-	{
-		icon: <FaPython size={32} />,
-		title: "Python for Data Analysis",
-		description:
-			"Proficient in Pandas, NumPy, Matplotlib, and Streamlit for EDA and interactive dashboards.",
-	},
-	{
-		icon: <FaCloud size={32} />,
-		title: "Big Data & Cloud Computing",
-		description:
-			"Skilled in PySpark, Google Cloud Platform, and deploying scalable machine learning solutions.",
 	},
 	{
 		icon: <FaChartBar size={32} />,
@@ -44,16 +32,28 @@ const skillsData = [
 	},
 	{
 		icon: <FaCode size={32} />,
-		title: "Software Development",
+		title: "Web Development",
 		description:
-			"Developing web applications with HTML, CSS, JavaScript, and integrating APIs for data-driven apps.",
+			"Building full-stack applications with React & Next.js for the frontend, Laravel & SQL for the backend and APIs integration.",
+	},
+	{
+		icon: <FaDatabase size={32} />,
+		title: "Database Management & Design",
+		description:
+			"Designing efficient database schemas and proficient in using various DBMS tools for data management.",
+	},
+	{
+		icon: <FaMobileAlt size={32} />,
+		title: "Mobile App Development",
+		description:
+			"Creating cross-platform mobile applications using Flutter, integrated with robust database solutions and RESTful APIs.",
 	},
 ];
 
 const TechnicalSkills: React.FC = () => {
 	return (
 		<section
-			id="technical-skills"
+			id="skills"
 			className="py-20">
 			<div className="container mx-auto px-4">
 				<SectionTitle title="Technical Skills" />

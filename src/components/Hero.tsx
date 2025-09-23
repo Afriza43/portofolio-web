@@ -5,6 +5,7 @@
 import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
+import { FaLinkedin } from "react-icons/fa";
 
 const Hero: React.FC = () => {
 	return (
@@ -13,19 +14,21 @@ const Hero: React.FC = () => {
 			style={{ minHeight: "80vh" }}>
 			<div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
 				<div className="text-center lg:text-left">
-					<p className="text-lg text-gray-400">Halo, nama saya</p>
+					<p className="text-lg text-gray-400">Hello, My Name is</p>
 					<h1 className="text-8xl font-bold tracking-tight text-white sm:text-7xl">
 						Afriza Meidio Andhana
 					</h1>
 					<div className="mt-6 text-2xl md:text-3xl text-gray-300">
-						Saya seorang{" "}
+						I am a{" "}
 						<TypeAnimation
 							sequence={[
-								"Web Developer.",
-								2000,
-								"Mahasiswa.",
-								2000,
 								"Tech Enthusiast.",
+								2000,
+								"ML Engineer.",
+								2000,
+								"Data Scientist.",
+								2000,
+								"Software Engineer.",
 								2000,
 							]}
 							wrapper="span"
@@ -36,15 +39,18 @@ const Hero: React.FC = () => {
 					</div>
 					<div className="mt-10 flex items-center justify-center lg:justify-start gap-x-8">
 						<a
-							href="#contact"
-							className="rounded-md bg-glow-indigo px-5 py-3 text-base font-semibold text-white shadow-lg hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500 transition-all duration-300 ease-in-out transform hover:scale-105">
-							Hubungi Saya
+							href="https://www.linkedin.com/in/afrizaandhana8"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="inline-flex items-center gap-x-3 rounded-md bg-linkedin-blue px-5 py-3 text-base font-semibold text-white shadow-lg hover:bg-blue-700 transition-all duration-300 ease-in-out transform hover:scale-105">
+							<FaLinkedin size={20} />
+							LinkedIn
 						</a>
 						<a
 							href="#projects"
 							className="text-base font-semibold leading-6 text-white group transition-all duration-300 ease-in-out">
 							<span className="bg-left-bottom bg-gradient-to-r from-glow-pink to-glow-pink bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out pb-2">
-								Lihat Proyek
+								View Projects
 							</span>
 							<span
 								aria-hidden="true"
@@ -57,7 +63,7 @@ const Hero: React.FC = () => {
 
 				<div className="flex justify-center lg:justify-end">
 					<div
-						className="w-64 h-64 md:w-80 md:h-80 relative rounded-full shadow-lg shadow-glow-purple border-2 border-white/10 overflow-hidden 
+						className="w-64 h-64 md:w-80 md:h-80 relative rounded-full shadow-glow-purple border-2 border-white/10 overflow-hidden 
                                   transition-all duration-300 ease-in-out 
                                   hover:scale-[1] hover:border-glow-indigo hover:shadow-glow-indigo cursor-pointer">
 						<Image
