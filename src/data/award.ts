@@ -20,7 +20,7 @@ export const awardsData = [
     title: 'Top 10 Finalist, Data Science & AI Competition',
     issuer: 'Ministry of Communication and Information, Indonesia',
     thumbnailUrl: '/image/awards/final-dsc.jpg',
-    fileUrl: '/sertifikat/pdfs/kominfo-finalist.pdf',
+    fileUrl: 'https://drive.google.com/file/d/1_8UzWEzfJsWDQZyLpihf0sX2ppM9F8v7/view?usp=drive_link',
     description: 'Became a finalist out of 1000 teams for developing a real-time helmet detection system with Python, OpenCV, and YOLOv8.',
   },
   {
