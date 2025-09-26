@@ -1,0 +1,42 @@
+export const trainingData = [
+  {
+    id: 1,
+    title: 'Dev Certification for Machine Learning with TensorFlow',
+    issuer: 'dev.cert',
+    thumbnailUrl: '/image/awards/dcml.jpg', 
+    fileUrl: 'https://dev.id/certificate/verify/ZEV6NG6VYL',
+    description: 'Completed the Machine Learning with TensorFlow course and certification exams, covering essential ML concepts and practical model development using TensorFlow.',
+  },
+  {
+    id: 2,
+    title: 'ID Camp 2024 - Data Science Intermediate',
+    issuer: 'Indosat Ooredoo Hutchison Digital Camp',
+    thumbnailUrl: '/image/awards/idcamp-ds.jpg',
+    fileUrl: 'https://drive.google.com/drive/folders/1NSTjDLmcNnnxazweXlzbDfZVudnYVggk?usp=drive_link',
+    description: "Completed the Data Science Intermediate program, gaining skills in data analysis, visualization, and machine learning using Python and relevant libraries.",
+  },
+  {
+    id: 3,
+    title: 'Virtual Internship Kalbe Nutritionals - Data Scientist',
+    issuer: 'Kalbe Nutritionals',
+    thumbnailUrl: '/image/awards/comp-kalbe.jpg',
+    fileUrl: 'https://drive.google.com/file/d/1cYbgzYWEjI6G6BaeBIjjGQpSWhbUR0JY/view?usp=drive_link',
+    description: 'Completed a virtual internship and training focused on data science projects, applying analytical skills, data visualization and database management to real-world business problems.',
+  },
+  {
+    id: 4,
+    title: 'Sertifikasi Junior Web Developer',
+    issuer: 'Badan Nasional Sertifikasi Profesi (BNSP)',
+    thumbnailUrl: '/image/awards/sert-web.jpg',
+    fileUrl: 'https://drive.google.com/file/d/1QOPTogTyGwtkSdLPKUNkFHN5oJcfsytf/view?usp=drive_link',
+    description: 'Achieved certification as a Junior Web Developer, demonstrating proficiency in web development technologies, front-end and back-end development, and best practices in building web applications.',
+  },
+  {
+    id: 5,
+    title: 'Bangkit Academy 2024 - Machine Learning Path',
+    issuer: 'Bangkit Academy Led by Google, Gojek, Tokopedia, and Traveloka',
+    thumbnailUrl: '/image/awards/bangkit-dist.jpg',
+    fileUrl: 'https://drive.google.com/drive/folders/1BiW4TIdY2ELW5ypZDfHwPabHVt3_r_L7?usp=drive_link',
+    description: 'Achieved certification in the Bangkit Academy 2024 Machine Learning Path, demonstrating proficiency in machine learning concepts, TensorFlow, and real-world AI applications.',
+  },
+];

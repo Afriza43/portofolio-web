@@ -3,7 +3,15 @@
 import React from "react";
 
 const Navbar: React.FC = () => {
-	const navLinks = ["About", "Expertise", "Skills", "Projects", "Contact"];
+	const navLinks = [
+		"About",
+		"Expertise",
+		"Skills",
+		"Projects",
+		"Training",
+		"Achievements",
+		"Contact",
+	];
 
 	return (
 		<header className="fixed inset-x-0 top-0 z-50 backdrop-blur-sm bg-primary-dark/30">
