@@ -1,6 +1,5 @@
-// src/components/Navbar.tsx
-
 import React from "react";
+import { FaFilePdf } from "react-icons/fa"; // 1. Import the icon
 
 const Navbar: React.FC = () => {
 	const navLinks = [
@@ -35,8 +34,16 @@ const Navbar: React.FC = () => {
 						</li>
 					))}
 				</ul>
+				{/* 2. Add the CV button here */}
 				<div className="hidden lg:flex lg:flex-1 lg:justify-end">
-					{/* ... */}
+					<a
+						href="https://drive.google.com/file/d/1Y8kI5j1I3wxiZ_rqmdYsFuXcUCyPzdWg/view?usp=sharing"
+						target="_blank"
+						rel="noopener noreferrer"
+						className="inline-flex items-center gap-x-2 rounded-md border border-glow-black/50 px-4 py-2 text-sm font-semibold text-glow-white transition-colors duration-300 hover:bg-glow-pink hover:text-primary-dark ">
+						<FaFilePdf />
+						CV
+					</a>
 				</div>
 			</nav>
 		</header>
